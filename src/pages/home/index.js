@@ -7,16 +7,16 @@ export default function Home() {
     <div>
       <Carousel style={{paddingBottom: '79px'}} autoplay afterChange={()=>{}}>
         <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', height: '50vh', borderRadius: '15px'}} src={hbImage1} alt="i1" />
+          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage1} alt="i1" />
         </div>
         <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', height: '50vh', borderRadius: '15px'}} src={hbImage2} alt="i1" />
+          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage2} alt="i1" />
         </div>
         <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', height: '50vh', borderRadius: '15px'}} src={hbImage3} alt="i1" />
+          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage3} alt="i1" />
         </div> 
         <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', height: '50vh', borderRadius: '15px'}} src={hbImage4} alt="i1" />
+          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage4} alt="i1" />
         </div> 
       </Carousel>
 
@@ -202,7 +202,7 @@ export default function Home() {
           <br/>
           <br/>
           <br/>
-          <Button type="primary" style={{backgroundColor: 'teal', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Send</b></Button>
+          <Button type="primary" style={{backgroundColor: 'teal', borderRadius: '8px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Send</b></Button>
         </Col>
       </Row>
 

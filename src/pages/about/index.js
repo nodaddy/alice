@@ -15,7 +15,7 @@ export default function About () {
             <Col xs={{span :0}} md={{span :24}} style={{marginBottom: '50px'}}>
                 <p>
                 <img align="right" style={{width: '40%', marginLeft: '40px', marginTop: '16px'}} src={image9} alt="loading ..." />
-                <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px', display: 'inline-block'}}>Awaken your soul</h1><br/>
+                <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px', display: 'inline-block'}}>About me</h1><br/>
                 <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
                 As a child I was fascinated by magic, mythical stories, fairies, astrology & amp; the moon cycles.
                 <br/>
@@ -39,7 +39,7 @@ export default function About () {
 
             <Col xs={{span :24}} md={{span :0}} style={{marginBottom: '50px'}}>
                 
-                <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px', display: 'inline-block'}}>Awaken your soul</h1><br/>
+                <h1 style={{fontFamily: 'Playfair Display', fontSize: '30px', display: 'inline-block'}}>About me</h1><br/>
                 <p>
                 <img align="right" style={{width: '60%', marginLeft: '10px', marginTop: '8px'}} src={image9} alt="loading ..." />
                 <span style={{fontFamily: 'Raleway', fontSize: '15px'}}>
@@ -89,13 +89,13 @@ export default function About () {
 
             <Col xs={{span :24}} md={{span :0}} style={{marginBottom: '50px'}}>
                 
-                <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px', display: 'inline-block'}}>How it began</h1><br/>
+                <h1 style={{fontFamily: 'Playfair Display', fontSize: '30px', display: 'inline-block'}}>How it began</h1><br/>
                 <p>
                 <span style={{fontFamily: 'Raleway', fontSize: '15px'}}>
+                <img align="left" style={{width: '60%', margin: '5px 10px 8px 0px'}} src={image11} alt="loading ..." />
+
                 Early 2014 I travelled to India to do some nursing volunteer work & I was drawn to take a course at the Krishnamachcharya yoga mandarin. 
-                 
-                <img align="left" style={{width: '60%', marginRight: '10px', marginTop: '5px'}} src={image11} alt="loading ..." />
-                
+                                
                 Krishnamacharya is widely considered as the father or architect of vinyasa, viniyoga. I was keen to learn as close to the source as possible.My experience of being taught in India at the KYM was so profound & life changing. I got the call to return to India to work and live. In October 2014 I returned to India to work at a hospital in Guwahati, Assam. I met my husband Raj 3 weeks into my stay in Assam. The mythical stories and culture in India felt very familiar and like home.
                 <br/>
                 
