@@ -48,6 +48,7 @@ function App() {
 
       <Modal
         width="100vw" 
+        style={{zIndex: 999}}
         bodyStyle={{backgroundImage: 'linear-gradient(#EFF2EF, white)', margin: '0px 0px'}}
         title="" visible={isModalVisible} onCancel={handleCancel}
         footer={[]}
@@ -82,6 +83,7 @@ function App() {
       </Modal> 
 
       <Modal
+      style={{zIndex: '999'}}
         width="100vw" 
         bodyStyle={{backgroundImage: 'linear-gradient(#EFF2EF, white)', margin: '0px 0px'}}
         title="" visible={isNavigationVisible} onCancel={handleCancelNavigation}

@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Row>
         <Col xs={{span: 0}} md={{span: 24}}>
-          <div style={{fontSize: '63px', fontFamily: 'Playfair Display', color: 'white', transform: 'translate(100px, 90px)', position: 'absolute', zIndex: '99999'}}>Rejuvenate your <br/> Mind & Body
+          <div style={{fontSize: '63px', fontFamily: 'Playfair Display', color: 'white', transform: 'translate(100px, 90px)', position: 'absolute', zIndex: '99'}}>Rejuvenate your <br/> Mind & Body
           <br />
           <div style={{fontFamily: 'Raleway', fontSize: '18px'}}>Yoga is the means of revealing the infinitely radiant light of the <br/> divine soul” Siddhanta Tanta</div>
           <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway', border: '1px solid #007991'}}><b>Join Classes</b></Button>
