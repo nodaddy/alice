@@ -2,14 +2,17 @@ import { RightCircleOutlined } from '@ant-design/icons'
 import { Button, Carousel, Col, Row } from 'antd'
 import Sider from 'antd/lib/layout/Sider'
 import React from 'react'
-import { aboutHero, image11, image9Classes, hpCard1, hpCard2, cornerFlower } from '../../assets'
+import { aboutHero, image9Classes, hpCard1, hpCard2, cornerFlower, classes, classesM, Group63, Group65, Group67, C1, C2, C3, C4, C5 } from '../../assets'
 
 export default function Classes() {
   return (
     <div>
         <Row style={{marginBottom: '50px'}}>
-            <Col span={24}>
-                <img style={{width: '100%'}} src={aboutHero} alt="loading ..." />
+            <Col xs={{span :0}} md={{span :24}}>
+                <img style={{width: '100%'}} src={classes} alt="loading ..." />
+            </Col>
+            <Col xs={{span :24}} md={{span :0}}>
+                <img style={{width: '100%'}} src={classesM} alt="loading ..." />
             </Col>
         </Row>
 
@@ -79,7 +82,7 @@ export default function Classes() {
       <Row style={{paddingBottom: '40px'}}>
         <Col xs={{span: 0}} md={{span: 8}} align="left">
           <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '100px 20px', fontFamily: 'raleway', width: '95%', height: '100%'}}>
-            <img src={hpCard1} alt="..." />
+            <img src={Group63} alt="..." style={{marginTop: '-20px'}} />
             <br/>
             <br/>
             <h1> <b>Group Classes</b> </h1>
@@ -91,7 +94,7 @@ export default function Classes() {
         </Col> 
         <Col xs={{span: 0}} md={{span: 8}} align="center">
         <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '82px 20px', fontFamily: 'raleway', width: '95%', height: '100%'}}>
-            <img src={hpCard2} alt="..." />
+            <img src={Group65} alt="..." />
             <br/>
             <br/>
             <h1> <b>Individual Classes</b> </h1>
@@ -100,7 +103,7 @@ export default function Classes() {
         </Col>
         <Col xs={{span: 0}} md={{span: 8}} align="right">
         <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '82px 20px', fontFamily: 'raleway', width: '95%', height: '100%'}}>
-            <img src={hpCard2} alt="..." />
+            <img src={Group67} alt="..." />
             <br/>
             <br/>
             <h1> <b>Online Classes</b> </h1>
@@ -111,7 +114,7 @@ export default function Classes() {
         {/* xs */}
         <Col xs={{span: 24}} md={{span: 0}} align="center" style={{paddingBottom: '40px'}}>
           <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '100px 20px', fontFamily: 'raleway', width: '95%'}}>
-            <img src={hpCard1} alt="..." />
+            <img src={Group63} alt="..." />
             <br/>
             <br/>
             <h1> <b>Group Classes</b> </h1>
@@ -123,7 +126,7 @@ export default function Classes() {
         </Col> 
         <Col xs={{span: 24}} md={{span: 0}} align="center" style={{paddingBottom: '40px'}}>
         <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '82px 20px', fontFamily: 'raleway', width: '95%'}}>
-            <img src={hpCard2} alt="..." />
+            <img src={Group65} alt="..." />
             <br/>
             <br/>
             <h1> <b>Individual Classes</b> </h1>
@@ -132,7 +135,7 @@ export default function Classes() {
         </Col>
         <Col xs={{span: 24}} md={{span: 0}} align="center" style={{paddingBottom: '20px'}}>
         <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '82px 20px', fontFamily: 'raleway', width: '95%'}}>
-            <img src={hpCard2} alt="..." />
+            <img src={Group67} alt="..." />
             <br/>
             <br/>
             <h1> <b>Online Classes</b> </h1>
@@ -161,14 +164,30 @@ export default function Classes() {
             <i style={{fontSize: '19px', fontWeight: '500'}}>Sangeeta Agarwal- Guwahati, India</i>
             </div>
             <div style={{}} > 
-            2
+            <i style={{fontSize: '19px', fontWeight: '200'}}>
+            It's always so wonderful, attending every Yoga session with Alice. Her way of teaching has this very relaxing and soothing effect on us. In Spite of the tough Yoga postures that she makes us perform, her holistic and soothing techniques, soft mantras, and cooling down at the end of every session, leaves us really rejuvenated by the end of it all. 
+            Always happy to begin the day with her Yoga sessions 🙏🏻😊
+            </i>
+            <br/>
+            <br/>
+            <i style={{fontSize: '19px', fontWeight: '500'}}>Farhana Zaman</i>
             </div>
             <div style={{}} > 
-            3
-            </div> 
+            <i style={{fontSize: '19px', fontWeight: '200'}}>
+            Alice is such a dedicated and experienced teacher and it's a privilege to learn yoga from her . Her knowledge of the universe and the way she uses her energy it's superb . Her eye for details and corrections of postures are really great . I am blessed to have a teacher like her . My energy levels and flexibility has gone up tremendously since I started practicing with her
+            </i>
+            <br/>
+            <br/>
+            <i style={{fontSize: '19px', fontWeight: '500'}}>Vikas</i>
+            </div>
             <div style={{}} > 
-            4
-            </div> 
+            <i style={{fontSize: '19px', fontWeight: '200'}}>
+            Yoga with Alice is a life changer! Classes are top notch 💯 recommended
+            </i>
+            <br/>
+            <br/>
+            <i style={{fontSize: '19px', fontWeight: '500'}}>Zeehan</i>
+            </div>
       </Carousel>
           </Col>
 
@@ -188,33 +207,43 @@ export default function Classes() {
             <i style={{fontSize: '19px', fontWeight: '500'}}>Sangeeta Agarwal- Guwahati, India</i>
             </div>
             <div style={{}} > 
-            2
+            <i style={{fontSize: '19px', fontWeight: '200'}}>
+            It's always so wonderful, attending every Yoga session with Alice. Her way of teaching has this very relaxing and soothing effect on us. In Spite of the tough Yoga postures that she makes us perform, her holistic and soothing techniques, soft mantras, and cooling down at the end of every session, leaves us really rejuvenated by the end of it all. 
+            Always happy to begin the day with her Yoga sessions 🙏🏻😊
+            </i>
+            <br/>
+            <br/>
+            <i style={{fontSize: '19px', fontWeight: '500'}}>Farhana Zaman</i>
             </div>
             <div style={{}} > 
-            3
+            <i style={{fontSize: '19px', fontWeight: '200'}}>
+            Alice is such a dedicated and experienced teacher and it's a privilege to learn yoga from her . Her knowledge of the universe and the way she uses her energy it's superb . Her eye for details and corrections of postures are really great . I am blessed to have a teacher like her . My energy levels and flexibility has gone up tremendously since I started practicing with her
+            </i>
+            <br/>
+            <br/>
+            <i style={{fontSize: '19px', fontWeight: '500'}}>Vikas</i>
             </div> 
             <div style={{}} > 
-            4
+            <i style={{fontSize: '19px', fontWeight: '200'}}>
+            Yoga with Alice is a life changer! Classes are top notch 💯 recommended
+            </i>
+            <br/>
+            <br/>
+            <i style={{fontSize: '19px', fontWeight: '500'}}>Zeehan</i>
             </div> 
       </Carousel>
           </Col>
       </Row>
 
-      <Row style={{marginBottom: '50px', marginTop: '0px'}}>
+      <Row style={{marginBottom: '60px', marginTop: '0px'}}>
         <Col span={24}>
             <h3 align='right'>Scroll <RightCircleOutlined /></h3>
           <div style={{ overflow: 'auto', whiteSpace: 'nowrap'}}>
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={aboutHero} alt="..." /> 
+          <img style={{width: '500px', marginRight: '50px'}} src={C1} alt="..." />
+          <img style={{width: '500px', marginRight: '50px'}} src={C2} alt="..." />
+          <img style={{width: '500px', marginRight: '50px'}} src={C3} alt="..." />
+          <img style={{width: '500px', marginRight: '50px'}} src={C4} alt="..." />
+          <img style={{width: '500px', marginRight: '50px'}} src={C5} alt="..." />
           </div>
         </Col>
       </Row>

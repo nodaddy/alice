@@ -1,14 +1,14 @@
-import { RightCircleOutlined } from '@ant-design/icons'
-import { Button, Carousel, Col, Row } from 'antd' 
+
+import { Carousel, Col, Row } from 'antd' 
 import React from 'react'
-import { aboutHero, image9Classes, hpCard1, hpCard2, cornerFlower, aboutRetreat, hbImage1, hbImage2, hbImage3, hbImage4, retreatgoa } from '../../assets'
+import { cornerFlower, aboutRetreat, hbImage1, hbImage2, hbImage3, hbImage4, retreatgoa, retreatHero, RC1, RC2, RC3, RC4 } from '../../assets'
 
 export default function Retreat() {
   return (
     <div>
         <Row style={{marginBottom: '50px'}}>
-            <Col span={24}>
-                <img style={{width: '100%'}} src={aboutHero} alt="loading ..." />
+            <Col span={24} align="center">
+                <img style={{width: '100%'}} src={retreatHero} alt="loading ..." />
             </Col>
         </Row>
 
@@ -45,23 +45,21 @@ export default function Retreat() {
             </Col>
         </Row>
 
-        <Carousel style={{paddingBottom: '79px'}} autoplay afterChange={()=>{}}>
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage1} alt="i1" />
+        <Carousel speed={1000} autoplay dots dotPosition='bottom' afterChange={()=>{}}>
+        <div>
+          <img style={{width:'100%', borderRadius: '15px'}} src={RC1} alt="i1" />
         </div>
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage2} alt="i1" />
+        <div>
+          <img style={{width:'100%', borderRadius: '15px'}} src={RC2} alt="i1" />
         </div>
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage3} alt="i1" />
+        <div>
+          <img style={{width:'100%', borderRadius: '15px'}} src={RC3} alt="i1" />
         </div> 
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
-          <img style={{width:'100%', borderRadius: '15px'}} src={hbImage4} alt="i1" />
+        <div>
+          <img style={{width:'100%', borderRadius: '15px'}} src={RC4} alt="i1" />
         </div> 
       </Carousel>
 
-
-        <br/>
         <br/>
 
       <Row>
@@ -132,7 +130,7 @@ export default function Retreat() {
         </Col>
       </Row>
 
-      <Row>
+      <Row style={{marginBottom: '60px'}}>
           <Col span={24}>
               <img src={retreatgoa} style={{ borderRadius: '10px',width: '100%' }} alt="retreats" />
           </Col>

@@ -1,6 +1,6 @@
 import { Row, Col } from 'antd'
 import React from 'react'
-import { aboutHero, bdg1, bdg2, image10, image11, image9 } from '../../assets'
+import { aboutHero, bdg1, bdg2, cornerFlower, image10, image11, image9 } from '../../assets'
 
 export default function About () {
   return (
@@ -108,7 +108,65 @@ export default function About () {
             </Col>
         </Row>
 
-        <Row style={{marginBottom: '40px'}}>
+        <Row style={{marginBottom: '50px'}}>
+          <Col md={{span:24}} xs={{span:0}} style={{backgroundColor: '#EFF2EF', background: `url(${cornerFlower})`, backgroundRepeat: 'no-repeat', backgroundSize: '20%', marginBottom: '0px', marginLeft: '-110px', marginRight: '-110px', padding: '0px 110px'}}>
+              <br/>
+              <br/>
+            <h1 style={{fontFamily: 'playfair display', fontSize: '35px'}}>My Achievements</h1>
+            <br/>
+            <Col xs={{span: 0}} md={{span: 24}}>
+                <ul style={{fontFamily: 'raleway', fontSize: '16px', paddingLeft: '20px'}}>
+                    <li>Degree in Nursing 2000</li>
+                   
+                    <li>Diploma in Tropical medicine</li>
+                   
+                    <li>Reiki 1 & 2</li>
+                    
+                    <li>200hrs YOGA ALLIANCE hrs. Claire Missingham 2012.</li>
+                    
+                    <li>1-month study Krishnamacharya Yoga Mandarin Chennai 2015, 2017.</li>
+                    
+                    <li>Certified IIN Health Coach 2015</li>
+
+                    <li>Urban Priestess School 2016/17</li>
+
+                    <li>Thai massage level one, The old medicine school, Chang Mai 2018.</li>
+
+                    <li>300hrs YOGA ALLIANCE hrs Rasa Yoga teaching training 2019.</li>
+                </ul>
+            </Col>
+
+          </Col>
+
+          <Col md={{span:0}} xs={{span:24}} style={{backgroundColor: '#EFF2EF', background: `url(${cornerFlower})`, backgroundRepeat: 'no-repeat', backgroundSize: '80%', marginLeft: '-25px', marginRight: '-25px', paddingLeft: '25px'}}>
+              <br/>
+              <br/>
+            <h1 style={{fontFamily: 'playfair display', fontSize: '30px'}}>My Achievements</h1>
+            <br/> 
+            <ul style={{fontFamily: 'raleway', fontSize: '16px', paddingLeft: '20px'}}>
+                    <li>Degree in Nursing 2000</li>
+                   
+                    <li>Diploma in Tropical medicine</li>
+                   
+                    <li>Reiki 1 & 2</li>
+                    
+                    <li>200hrs YOGA ALLIANCE hrs. Claire Missingham 2012.</li>
+                    
+                    <li>1-month study Krishnamacharya Yoga Mandarin Chennai 2015, 2017.</li>
+                    
+                    <li>Certified IIN Health Coach 2015</li>
+
+                    <li>Urban Priestess School 2016/17</li>
+
+                    <li>Thai massage level one, The old medicine school, Chang Mai 2018.</li>
+
+                    <li>300hrs YOGA ALLIANCE hrs Rasa Yoga teaching training 2019.</li>
+                </ul>
+          </Col>
+      </Row>
+      
+
+        <Row style={{marginBottom: '60px'}}>
             <Col span={12} align="center">
                 <img style={{width: '90px', marginBottom: '20px'}} src={bdg1} alt="..."/>
                 <h4 style={{fontFamily: 'raleway', display: 'inline-block', marginLeft: '25px'}}>Completed my 500 hrs yoga alliance training</h4>

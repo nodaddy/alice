@@ -1,21 +1,31 @@
 import { Button, Carousel, Col, Row, Input } from 'antd'
 import React from 'react'
-import { hbImage1, hbImage2, hbImage3, hbImage4, hpCard1, hpCard2, hp1, hp2, hp3, hp4 } from '../../assets'
+import { hbImage1, hbImage2, hbImage3, hbImage4, hpCard1, hpCard2, hp1, hp2, hp3, hp4, compassion, connection, Nature, Sangha, Movement } from '../../assets'
 
 export default function Home() {
   return (
     <div>
-      <Carousel style={{paddingBottom: '79px'}} autoplay afterChange={()=>{}}>
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
+      <Row>
+        <Col xs={{span: 0}} md={{span: 24}}>
+          <div style={{fontSize: '63px', fontFamily: 'Playfair Display', color: 'white', transform: 'translate(100px, 90px)', position: 'absolute', zIndex: '99999'}}>Rejuvenate your <br/> Mind & Body
+          <br />
+          <div style={{fontFamily: 'Raleway', fontSize: '18px'}}>Yoga is the means of revealing the infinitely radiant light of the <br/> divine soul” Siddhanta Tanta</div>
+          <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway', border: '1px solid #007991'}}><b>Join Classes</b></Button>
+          </div>
+        </Col>
+      </Row>
+
+      <Carousel style={{paddingBottom: '79px'}} autoplay speed={1000} afterChange={()=>{}}>
+        <div>
           <img style={{width:'100%', borderRadius: '15px'}} src={hbImage1} alt="i1" />
         </div>
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
+        <div>
           <img style={{width:'100%', borderRadius: '15px'}} src={hbImage2} alt="i1" />
         </div>
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
+        <div>
           <img style={{width:'100%', borderRadius: '15px'}} src={hbImage3} alt="i1" />
         </div> 
-        <div style={{height: '50vh', overflowY: 'hidden'}} >
+        <div>
           <img style={{width:'100%', borderRadius: '15px'}} src={hbImage4} alt="i1" />
         </div> 
       </Carousel>
@@ -154,35 +164,34 @@ export default function Home() {
 
       <Row style={{marginBottom: '100px', marginTop: '0px'}}>
         <Col span={24}>
-          <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px'}}>My Values</h1>
-          <div style={{ overflow: 'auto', whiteSpace: 'nowrap'}}>
-            <span style={{width: '300px', display: 'inline-block', margin: 'auto'}}>Compassion</span> 
-            <span style={{width: '300px', display: 'inline-block', margin: 'auto'}}>Connection</span> 
-            <span style={{width: '300px', display: 'inline-block', margin: 'auto'}}>Nature</span> 
-            <span style={{width: '300px', display: 'inline-block', margin: 'auto'}}>Connection</span> 
-            <span style={{width: '300px', display: 'inline-block', margin: 'auto'}}>Connection</span> 
-            <span style={{width: '300px', display: 'inline-block', margin: 'auto'}}>Connection</span> 
+          <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px'}}>My Values</h1><br/>
+          <div style={{ overflow: 'auto', whiteSpace: 'nowrap', fontFamily: 'Raleway'}} align="left">
+            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={compassion} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Compassion</span> 
+            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={connection} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Connection</span> 
+            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={Nature} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Nature</span> 
+            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={Sangha} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Sangha</span>
+            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={Movement} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Movement</span>
           </div>
         </Col>
       </Row>
 
       <Row style={{backgroundColor: '#EFF2EF', paddingTop: '50px', margin: '0px -110px'}} className="onlyDesktop">
         <Col xs={{span: 0}} md={{span: 9}} align="center">
-        <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px'}}>Get in touch</h1>
+        <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px', width: '80%'}} align="left">Get in touch</h1>
         <img src={hp4} alt="..." style={{width: '80%'}} />
         </Col>
         <Col xs={{span: 0}} md={{span: 15}} style={{padding: '80px 40px'}} align="center">
-          <Input placeholder="Name" style={{padding: '10px 20px', borderRadius: '7px', color: 'black', width: '85%'}} />
+          <Input placeholder="Name" style={{padding: '17px 20px', borderRadius: '7px', color: 'black', width: '75%'}} />
           <br/>
           <br/>
-          <Input placeholder="Contact" style={{padding: '10px 20px', borderRadius: '7px', color: 'black', width: '85%'}} />
+          <Input placeholder="Contact" style={{padding: '17px 20px', borderRadius: '7px', color: 'black', width: '75%'}} />
           <br/>
           <br/>
-          <Input.TextArea rows="5" placeholder="Your Message" style={{padding: '10px 20px', borderRadius: '7px', color: 'black', width: '85%'}} />
+          <Input.TextArea rows="5" placeholder="Your Message" style={{padding: '17px 20px', borderRadius: '7px', color: 'black', width: '75%'}} />
           <br/>
           <br/>
           <br/>
-          <Button type="primary" style={{backgroundColor: 'teal', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Send</b></Button>
+          <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '4px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Send</b></Button>
         </Col>
       </Row>
       {/* xs */}
@@ -202,7 +211,7 @@ export default function Home() {
           <br/>
           <br/>
           <br/>
-          <Button type="primary" style={{backgroundColor: 'teal', borderRadius: '8px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Send</b></Button>
+          <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '8px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Send</b></Button>
         </Col>
       </Row>
 

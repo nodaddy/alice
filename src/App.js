@@ -1,17 +1,14 @@
 import './App.css';
 import 'antd/dist/antd.css';
 import Home from './pages/home';
-import { Row, Col, Button, Modal } from 'antd';
-import { logo } from "./assets";
+import { Row, Col, Button, Modal } from 'antd'; 
 import { useState } from 'react';
-import { HashRouter as Router, NavLink, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import About from './pages/about';
 import Contact from './pages/contact';
-import {
-  MenuOutlined
-} from '@ant-design/icons';
 import Classes from './pages/classes';
-import Retreat from './pages/retreat';
+import Retreat from './pages/retreat'; 
+import Navbar from './components/navbar';
 
 function App() {
 
@@ -29,24 +26,7 @@ function App() {
   return (
     <div className="App" style={{color: 'black'}}>
       <Router>
-      <Row className='nav-bar'>
-        <Col xs={{span: 12}} md={{span: 12}} align="left">
-          <img src={logo} style={{width: '120px', marginTop: '-40px', transform: 'translate(0px, 23px)'}} alt="Alice Banting" />
-        </Col>
-        <Col xs={{span: 0}} md={{span: 12}} align="right">
-          <NavLink to="/"><Button type="text">Home</Button></NavLink>
-          <Button type="text" onClick={()=>{
-            setIsModalVisible(true);
-          }}>Yoga</Button>
-          <NavLink to="/about"><Button type="text">About</Button></NavLink>
-          <NavLink to="/contact"><Button type="text">Contact</Button></NavLink>
-        </Col>
-        <Col xs={{span: 12}} md={{span: 0}} align="right">
-          <MenuOutlined style={{fontSize: '28px'}} onClick={()=>{
-            setIsNavigationVisible(true);
-          }} />
-        </Col>
-      </Row>
+      <Navbar setIsModalVisible={setIsModalVisible} setIsNavigationVisible={setIsNavigationVisible} />
       
         <Routes>
           <Route path="/" element={<Home />} />

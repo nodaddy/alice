@@ -50,7 +50,7 @@ export default function Contact
         </Col>
       </Row>
       
-    <Row style={{margin: '50px 0px'}}>
+    <Row style={{margin: '60px 0px'}}>
         <Col span={24}>
             <h1 align="left" style={{fontFamily: 'Playfair Display', fontSize: '40px', width: '85%'}} className="onlyDesktop">Connect with me on social media</h1>
             <h1 align="left" style={{fontFamily: 'Playfair Display', fontSize: '30px', width: '85%', display: 'none'}} className="onlyMobile">Connect with me on social media</h1>
