@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Input, Button } from 'antd'
-import { aboutHero, contactHero, hp4 } from '../../assets'
+import { insta, contactHero, fb } from '../../assets'
 import {
     MailOutlined, PhoneOutlined, HomeOutlined
   } from '@ant-design/icons';
@@ -58,10 +58,10 @@ export default function Contact
         <br/>
         <br/>
         <Col span={12}>
-            <img align="left" style={{width: '90%', borderRadius: '10px'}} src={aboutHero} alt="loading ..." />
+            <img align="left" style={{width: '90%', borderRadius: '10px'}} src={fb} alt="loading ..." />
         </Col>
         <Col span={12}>
-            <img align="right" style={{width: '90%', borderRadius: '10px'}} src={aboutHero} alt="loading ..." />
+            <img align="right" style={{width: '90%', borderRadius: '10px'}} src={insta} alt="loading ..." />
         </Col>
     </Row>
     </div>

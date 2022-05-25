@@ -40,6 +40,8 @@ import RC2 from './retreat/carousel/RC2.png'
 import RC3 from './retreat/carousel/RC3.png'
 import RC4 from './retreat/carousel/RC4.png'
 import contactHero from './contact/hero.png'
+import fb from './contact/fb.png';
+import insta from './contact/insta.png';
 
 export {
     hbImage1,
@@ -83,5 +85,7 @@ export {
     RC2,
     RC3,
     RC4,
-    contactHero
+    contactHero,
+    fb,
+    insta
 }

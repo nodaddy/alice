@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Row>
         <Col xs={{span: 0}} md={{span: 24}}>
-          <div style={{fontSize: '63px', fontFamily: 'Playfair Display', color: 'white', transform: 'translate(100px, 90px)', position: 'absolute', zIndex: '99'}}>Rejuvenate your <br/> Mind & Body
+          <div style={{fontSize: '63px', fontFamily: 'Playfair Display', color: 'white', transform: 'translate(100px, 110px)', position: 'absolute', zIndex: '99'}}>Rejuvenate your <br/> Mind & Body
           <br />
           <div style={{fontFamily: 'Raleway', fontSize: '18px'}}>Yoga is the means of revealing the infinitely radiant light of the <br/> divine soul” <i style={{fontWeight: '600'}}>Siddhanta Tanta</i></div>
           {/* <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway', border: '1px solid #007991'}}><b>Join Classes</b></Button> */}
@@ -33,22 +33,22 @@ export default function Home() {
 
       <Row style={{paddingBottom: '52px'}}>
         <Col xs={{span: 0}} md={{span: 11}}>
-          <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px'}}>Awaken your soul</h1>
+          <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px'}}>Connect to ancient wisdom</h1>
           <p style={{fontFamily: 'Raleway', fontSize: '16px'}}>
           Welcome to my world, Humans living in this modern age are disconnected from the cosmic language.Disconnected from nature. Disconnected from our bodies. I practice what I teach. I provide a safe space for getting back in connection. Connecting back to planetary influences, natures cycles and our human cycles.
           <br/>
           <br/>
-          Yoga is a journey home. The practice awakens our souls so that we can feel connected and open to all that is. It guides us to listen to our body and respond in a way that supports and nourishes, allowing us to heal and restore from deep within. It teaches us to witness the movements of our mind so that we can break free from negative habit patterns, renew our perspective and bring greater balance to our state of being.
+          The mind body link is very potent.When we change the state of our body, we will change the state of the mind.The magnificent machine which is our body is our most powerful divination tool.When we use yogic/tantric practices to connect mind, body & breath. We tap into the ancient wisdom that we all hold in our cells. This wisdom is handed down from our ancestors in the blueprint of our DNA.This wisdom guides us to listen deeply to the language of our soul, our intuition & our hearts greatest desires.
           </p>
         </Col>
         <Col xs={{span: 24}} md={{span: 0}}>
-          <h1 style={{fontFamily: 'Playfair Display', fontSize: '34px'}}>Awaken your soul</h1>
+          <h1 style={{fontFamily: 'Playfair Display', fontSize: '34px'}}>Connect to ancient wisdom</h1>
           <p style={{fontFamily: 'Raleway', fontSize: '15px'}}>
           <img align="right" src={hp1} style={{width: '65%', marginLeft: '10px', marginTop: '8px'}}  alt="..." />
           Welcome to my world, Humans living in this modern age are disconnected from the cosmic language.Disconnected from nature. Disconnected from our bodies. I practice what I teach. I provide a safe space for getting back in connection. Connecting back to planetary influences, natures cycles and our human cycles.
           <br/>
           <br/>
-          Yoga is a journey home. The practice awakens our souls so that we can feel connected and open to all that is. It guides us to listen to our body and respond in a way that supports and nourishes, allowing us to heal and restore from deep within. It teaches us to witness the movements of our mind so that we can break free from negative habit patterns, renew our perspective and bring greater balance to our state of being.
+          The mind body link is very potent.When we change the state of our body, we will change the state of the mind.The magnificent machine which is our body is our most powerful divination tool.When we use yogic/tantric practices to connect mind, body & breath. We tap into the ancient wisdom that we all hold in our cells. This wisdom is handed down from our ancestors in the blueprint of our DNA.This wisdom guides us to listen deeply to the language of our soul, our intuition & our hearts greatest desires.
           </p>
         </Col>
         <Col xs={{span: 0}} md={{span: 2}}></Col>
@@ -105,10 +105,10 @@ export default function Home() {
 
       <Row style={{marginBottom: '50px'}}>
         <Col span={24}>
-          <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px'}}>About Sadhana</h1>
+          <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px'}}>Sadhana</h1>
           <p style={{fontFamily: 'Raleway', fontSize: '16px'}}> 
-            “Through Yogic sadhana we can experience the subtle energy, called prana or kundalini, which underlies all matter.<br/> 
-            This experience is a transformative one, which makes the subtle more tangible & real than the so called material, solid physical universe.
+          Sadhana is a sanskrit term used to describe a daily disciplined practice & commitment to learning.
+          <br/><br/> It is a surrendering of the ego with the intention of spiritual grow“Through Yogic sadhana we can experience the subtle energy, called prana or kundalini, which underlies all matter.This experience is a transformative one, which makes the subtle more tangible & real than the so called material, solid physical universe.
           </p>
           <br/>
           <img src={hp2} alt="..." style={{width: '100%'}} />
