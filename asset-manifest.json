@@ -1,19 +1,14 @@
 {
   "files": {
     "main.css": "/alice/static/css/main.795452a3.css",
-    "main.js": "/alice/static/js/main.e97eee6a.js",
+    "main.js": "/alice/static/js/main.12886a85.js",
     "static/js/787.fd438747.chunk.js": "/alice/static/js/787.fd438747.chunk.js",
     "static/media/RC4.png": "/alice/static/media/RC4.68ab4166c736376f6482.png",
     "static/media/RC1.png": "/alice/static/media/RC1.d394270ff460a6f465fe.png",
-    "static/media/IMG-7020.png": "/alice/static/media/IMG-7020.11590ca8647f029936e1.png",
-    "static/media/IMG-7008.png": "/alice/static/media/IMG-7008.e3e7962c9c2083bed8bd.png",
-    "static/media/Classes.png": "/alice/static/media/Classes.1b9746d35af197e8807c.png",
     "static/media/ClassesM.png": "/alice/static/media/ClassesM.236bfe97efde77993044.png",
-    "static/media/IMG-7018.png": "/alice/static/media/IMG-7018.fa617ebdc905a4d8d6df.png",
     "static/media/C1.png": "/alice/static/media/C1.803149defde42091260a.png",
     "static/media/Group69.png": "/alice/static/media/Group69.a2834d5c27082a89ca81.png",
     "static/media/C3.png": "/alice/static/media/C3.003dffdc6c38667bc9f1.png",
-    "static/media/hero.png": "/alice/static/media/hero.9749923c63f7624b3ec9.png",
     "static/media/Mask16.png": "/alice/static/media/Mask16.ed52ecddb573f9cede57.png",
     "static/media/RC2.png": "/alice/static/media/RC2.9760e0590f955c93abf4.png",
     "static/media/C5.png": "/alice/static/media/C5.b9597eecc35d75f36338.png",
@@ -24,11 +19,16 @@
     "static/media/RC3.png": "/alice/static/media/RC3.3371e34f31069b56c9b0.png",
     "static/media/image10.png": "/alice/static/media/image10.ed67ccccc873293be23a.png",
     "static/media/C2.png": "/alice/static/media/C2.3c011667fb255d0caf47.png",
-    "static/media/aboutHero.png": "/alice/static/media/aboutHero.d066110805ed7cac7934.png",
+    "static/media/aboutHero.png": "/alice/static/media/aboutHero.3190028b9020d325ee36.png",
+    "static/media/Classes.png": "/alice/static/media/Classes.1c29356a38b9c2e119c0.png",
+    "static/media/IMG-7008.png": "/alice/static/media/IMG-7008.f94fd92fc6efa32baa6e.png",
+    "static/media/IMG-7020.png": "/alice/static/media/IMG-7020.e335a3b06551a8257ea7.png",
+    "static/media/IMG-7018.png": "/alice/static/media/IMG-7018.c77330592b832d158579.png",
     "static/media/Mask17.png": "/alice/static/media/Mask17.bc8bfa954f2992feefd2.png",
     "static/media/logo.svg": "/alice/static/media/logo.7663b448b6d807f48b6b400093b29035.svg",
     "static/media/aboutRetreat.png": "/alice/static/media/aboutRetreat.508aab340d20f403f31e.png",
     "static/media/image9.png": "/alice/static/media/image9.e75e545a2217cc9e712b.png",
+    "static/media/hero.png": "/alice/static/media/hero.0d9afdac15c7a5e4e43c.png",
     "static/media/Rectangle46.png": "/alice/static/media/Rectangle46.caf5d9cf8363790341be.png",
     "static/media/Image9Classes.png": "/alice/static/media/Image9Classes.d4732d95034b15f3776e.png",
     "static/media/cornerFlower.png": "/alice/static/media/cornerFlower.0265eec483b41265948d.png",
@@ -41,13 +41,16 @@
     "static/media/Group21.svg": "/alice/static/media/Group21.e52523391b03a203aa525c8565dfe70f.svg",
     "static/media/Group90.svg": "/alice/static/media/Group90.f3c0be2dc857b44479e02e4430cd5a8b.svg",
     "static/media/hpCard1.svg": "/alice/static/media/hpCard1.6a5d55e135804e233aa5d1fbcd8c9da0.svg",
+    "static/media/Group63.svg": "/alice/static/media/Group63.34b0c858b96f55ce034fcc0629759728.svg",
+    "static/media/Group67.svg": "/alice/static/media/Group67.0dec4c46bd645ab68e7232a99b4aff0c.svg",
     "index.html": "/alice/index.html",
+    "static/media/Group65.svg": "/alice/static/media/Group65.bf57c0802766ca5dcb611c6376414bf9.svg",
     "main.795452a3.css.map": "/alice/static/css/main.795452a3.css.map",
-    "main.e97eee6a.js.map": "/alice/static/js/main.e97eee6a.js.map",
+    "main.12886a85.js.map": "/alice/static/js/main.12886a85.js.map",
     "787.fd438747.chunk.js.map": "/alice/static/js/787.fd438747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.795452a3.css",
-    "static/js/main.e97eee6a.js"
+    "static/js/main.12886a85.js"
   ]
 }
