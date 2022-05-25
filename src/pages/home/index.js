@@ -1,5 +1,6 @@
 import { Button, Carousel, Col, Row, Input } from 'antd'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import { hbImage1, hbImage2, hbImage3, hbImage4, hpCard1, hpCard2, hp1, hp2, hp3, hp4, compassion, connection, Nature, Sangha, Movement } from '../../assets'
 
 export default function Home() {
@@ -9,8 +10,8 @@ export default function Home() {
         <Col xs={{span: 0}} md={{span: 24}}>
           <div style={{fontSize: '63px', fontFamily: 'Playfair Display', color: 'white', transform: 'translate(100px, 90px)', position: 'absolute', zIndex: '99'}}>Rejuvenate your <br/> Mind & Body
           <br />
-          <div style={{fontFamily: 'Raleway', fontSize: '18px'}}>Yoga is the means of revealing the infinitely radiant light of the <br/> divine soul” Siddhanta Tanta</div>
-          <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway', border: '1px solid #007991'}}><b>Join Classes</b></Button>
+          <div style={{fontFamily: 'Raleway', fontSize: '18px'}}>Yoga is the means of revealing the infinitely radiant light of the <br/> divine soul” <i style={{fontWeight: '600'}}>Siddhanta Tanta</i></div>
+          {/* <Button type="primary" style={{backgroundColor: '#007991', borderRadius: '5px', padding: '0px 40px', fontFamily: 'raleway', border: '1px solid #007991'}}><b>Join Classes</b></Button> */}
           </div>
         </Col>
       </Row>
@@ -136,7 +137,7 @@ export default function Home() {
           The healing path has always been part of my journey. My first career was nursing. I spent 15 years asa nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing.
           <br/> 
           <br/> 
-          <Button type="link" style={{padding: '0px'}}>Read More</Button>
+          <NavLink to='/about'><Button type="link" style={{padding: '0px', fontWeight: '700'}} onClick={()=>window.scrollTo(0, 0)}>Read More</Button></NavLink>
           </p>
         </Col>
       </Row>
@@ -166,11 +167,11 @@ export default function Home() {
         <Col span={24}>
           <h1 style={{fontFamily: 'Playfair Display', fontSize: '35px'}}>My Values</h1><br/>
           <div style={{ overflow: 'auto', whiteSpace: 'nowrap', fontFamily: 'Raleway'}} align="left">
-            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={compassion} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Compassion</span> 
-            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={connection} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Connection</span> 
-            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={Nature} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Nature</span> 
-            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={Sangha} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Sangha</span>
-            <span style={{ display: 'inline-block', marginRight: '120px'}} align="center"><img src={Movement} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Movement</span>
+            <span style={{ display: 'inline-block', marginRight: '120px', fontWeight: '600'}} align="center"><img src={compassion} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Compassion</span> 
+            <span style={{ display: 'inline-block', marginRight: '120px', fontWeight: '600'}} align="center"><img src={connection} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Connection</span> 
+            <span style={{ display: 'inline-block', marginRight: '120px', fontWeight: '600'}} align="center"><img src={Nature} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Nature</span> 
+            <span style={{ display: 'inline-block', marginRight: '120px', fontWeight: '600'}} align="center"><img src={Sangha} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Sangha</span>
+            <span style={{ display: 'inline-block', marginRight: '120px', fontWeight: '600'}} align="center"><img src={Movement} alt="_compassion" style={{width: '80%'}} /> <br/><br/> Movement</span>
           </div>
         </Col>
       </Row>

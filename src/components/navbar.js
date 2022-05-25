@@ -13,9 +13,10 @@ export default function Navbar(props) {
     <div>
         <Row className='nav-bar'>
         <Col xs={{span: 12}} md={{span: 12}} align="left">
-          <img src={logo} style={{width: '120px', marginTop: '-40px', transform: 'translate(0px, 23px)'}} alt="Alice Banting" />
+          <img src={logo} style={{width: '160px', marginTop: '-40px', transform: 'translate(0px, 23px)'}} alt="Alice Banting" />
         </Col>
         <Col xs={{span: 0}} md={{span: 12}} align="right">
+          <br/>
           <NavLink to="/"><Button type="text">{location.pathname === "/" ? <b style={{fontSize: '15px'}}>Home</b> : "Home"}</Button></NavLink>
           <Button type="text" onClick={()=>{
             props.setIsModalVisible(true);

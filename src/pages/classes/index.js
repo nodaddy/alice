@@ -1,4 +1,4 @@
-import { RightCircleOutlined } from '@ant-design/icons'
+import { LeftOutlined, RightCircleOutlined, RightOutlined } from '@ant-design/icons'
 import { Button, Carousel, Col, Row } from 'antd'
 import Sider from 'antd/lib/layout/Sider'
 import React from 'react'
@@ -82,7 +82,7 @@ export default function Classes() {
       <Row style={{paddingBottom: '40px'}}>
         <Col xs={{span: 0}} md={{span: 8}} align="left">
           <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '100px 20px', fontFamily: 'raleway', width: '95%', height: '100%'}}>
-            <img src={Group63} alt="..." style={{marginTop: '-20px'}} />
+            <img  src={Group63} alt="..." style={{marginTop: '-20px', width: '30%'}} />
             <br/>
             <br/>
             <h1> <b>Group Classes</b> </h1>
@@ -114,7 +114,7 @@ export default function Classes() {
         {/* xs */}
         <Col xs={{span: 24}} md={{span: 0}} align="center" style={{paddingBottom: '40px'}}>
           <div align="center" style={{backgroundColor: '#EFF2EF', borderRadius: '14px', padding: '100px 20px', fontFamily: 'raleway', width: '95%'}}>
-            <img src={Group63} alt="..." />
+            <img style={{width: '30%'}} src={Group63} alt="..." />
             <br/>
             <br/>
             <h1> <b>Group Classes</b> </h1>
@@ -144,7 +144,7 @@ export default function Classes() {
         </Col>
         <Col span={24} align="center">
             <br/>
-          <Button type="primary" style={{marginBottom: '40px', backgroundColor: 'teal', borderRadius: '9px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Book Classes</b></Button>
+          {/* <Button type="primary" style={{marginBottom: '40px', backgroundColor: 'teal', borderRadius: '9px', padding: '0px 40px', fontFamily: 'raleway'}}><b>Book Classes</b></Button> */}
         </Col>
       </Row>
 
@@ -236,16 +236,22 @@ export default function Classes() {
       </Row>
 
       <Row style={{marginBottom: '60px', marginTop: '0px'}}>
-        <Col span={24}>
-            <h3 align='right'>Scroll <RightCircleOutlined /></h3>
+      <Col span={2} align="center">
+      <LeftOutlined style={{ marginTop: '130px', transform: 'translate(-20px)', fontSize: '25px', padding: '0px'}} /> 
+
+ </Col>
+        <Col span={20}>
           <div style={{ overflow: 'auto', whiteSpace: 'nowrap'}}>
-          <img style={{width: '500px', marginRight: '50px'}} src={C1} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={C2} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={C3} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={C4} alt="..." />
-          <img style={{width: '500px', marginRight: '50px'}} src={C5} alt="..." />
+          <img style={{width: '400px', marginRight: '50px'}} src={C1} alt="..." />
+          <img style={{width: '400px', marginRight: '50px'}} src={C2} alt="..." />
+          <img style={{width: '400px', marginRight: '50px'}} src={C3} alt="..." />
+          <img style={{width: '400px', marginRight: '50px'}} src={C4} alt="..." />
+          <img style={{width: '400px', marginRight: '50px'}} src={C5} alt="..." />
           </div>
-        </Col>
+        </Col> 
+        <Col span={2} align="center">
+        <RightOutlined style={{marginTop: '130px', fontSize: '25px', padding: '0px'}} /> 
+ </Col>
       </Row>
     </div>
   )

@@ -48,7 +48,7 @@ function App() {
 
       <Modal
         width="100vw" 
-        style={{zIndex: 999}}
+        style={{zIndex: 9999}}
         bodyStyle={{backgroundImage: 'linear-gradient(#EFF2EF, white)', margin: '0px 0px'}}
         title="" visible={isModalVisible} onCancel={handleCancel}
         footer={[]}
@@ -85,7 +85,7 @@ function App() {
       <Modal
       style={{zIndex: '999'}}
         width="100vw" 
-        bodyStyle={{backgroundImage: 'linear-gradient(#EFF2EF, white)', margin: '0px 0px'}}
+        bodyStyle={{backgroundImage: 'linear-gradient(#EFF2EF, white)', margin: '0px 0px', fontFamily: 'Raleway'}}
         title="" visible={isNavigationVisible} onCancel={handleCancelNavigation}
         footer={[]}
       >
@@ -95,6 +95,7 @@ function App() {
         <br/>
           <Button type="text" onClick={()=>{
             setIsModalVisible(true);
+            handleCancelNavigation();
           }}>Yoga</Button>
         <br/>
           <NavLink to="/about" onClick={()=>{

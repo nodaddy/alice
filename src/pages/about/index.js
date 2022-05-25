@@ -17,23 +17,16 @@ export default function About () {
                 <img align="right" style={{width: '40%', marginLeft: '40px', marginTop: '16px'}} src={image9} alt="loading ..." />
                 <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px', display: 'inline-block'}}>About me</h1><br/>
                 <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
-                As a child I was fascinated by magic, mythical stories, fairies, astrology & amp; the moon cycles.
+                As a child I was fascinated by magic, mythical stories, fairies, astrology & the moon cycles.I have always had a very strong belief that there is so much more to life than what is right in front of our eyes<br/>
+                <br/>
+                The healing path has always been part of my journey. My first career was nursing. I spent 15 years as a nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing. My last post was as a sister in St Georges Accident & Emergency Department.
                 <br/>
                 <br/>
-                I have always had a very strong belief that there is so much more to life than what is right in front of our eyes. 
+                Despite my respect & love for western medicine as life savings as it can be. I started to sense something was missing in the care we were offering patients. The influence of big pharmaceutical companies in health care simply no longer resonated with me. I had always been attracted to other modalities of healing and started to explore alternative and complimentary therapies initially within the nursing structure. I strongly believe that healing in the future will be a dual approach. Allopathic & alternative medicine working together. 
                 <br/>
                 <br/>
-                The healing path has always been part of my journey. My first career was nursing. I spent 15 years as a nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing.My last post was as a sister in St Georges Accident & Emergency Department.
-                <br/>
-                <br/>
-                Despite my respect & love for western medicine as life savings as it can be. I started to sense something was missing in the care we were offering patients. The influence of big pharmaceutical companies in health care simply no longer resonated with me. I had always been attracted to other modalities of healing and started to explore alternative and complimentary therapies initially within the nursing structure.
-                <br/>
-                <br/>
-                A back injury from nursing pushed me towards my first regular yoga practice around 2008. Yoga not only gave me a solution to my back pain, it gave me the first experience of being able to control myracing, monkey, burnt out mind. Like many people my initial classes were in a gym.
-                <br/>
-                <br/>
-                I soon became hooked on yoga and gravitated towards a vinyasa Flow practice. I Resonated with a local teacher & regular class near my flat in Streatham. The philosophy and the guidance for life that came through with the practice just drove me to what to & learn more & more. I did my first 200hr teacher training in Vinyasa Flow with Claire Missingham in 2011. This training was a pivotal point in my life. A whole new world literally cracked open for me.
-                </span>
+                A back injury from nursing pushed me towards my first regular yoga practice around 2008. Yoga not only gave me a solution to my back pain, it gave me the first experience of being able to control my racing, monkey, burnt out mind. Like many people my initial classes were in a gym. I soon became hooked on yoga and gravitated towards a vinyasa flow practice. I Resonated with a local teacher & regular class near my flat in Streatham. The philosophy and the guidance for life that came through with the practice just drove me to what to & learn more & more. I did my first 200hr teacher training in Vinyasa Flow with Claire Missingham in 2012. This training was a pivotal point in my life. A whole new world literally cracked open for me.
+                 </span>
                 </p>
             </Col>
 
@@ -42,24 +35,18 @@ export default function About () {
                 <h1 style={{fontFamily: 'Playfair Display', fontSize: '30px', display: 'inline-block'}}>About me</h1><br/>
                 <p>
                 <img align="right" style={{width: '60%', marginLeft: '10px', marginTop: '8px'}} src={image9} alt="loading ..." />
-                <span style={{fontFamily: 'Raleway', fontSize: '15px'}}>
-                As a child I was fascinated by magic, mythical stories, fairies, astrology & amp; the moon cycles.
+                <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
+                As a child I was fascinated by magic, mythical stories, fairies, astrology & the moon cycles.I have always had a very strong belief that there is so much more to life than what is right in front of our eyes
                 <br/>
                 <br/>
-                I have always had a very strong belief that there is so much more to life than what is right in front of our eyes. 
+                The healing path has always been part of my journey. My first career was nursing. I spent 15 years as a nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing. My last post was as a sister in St Georges Accident & Emergency Department.
                 <br/>
                 <br/>
-                The healing path has always been part of my journey. My first career was nursing. I spent 15 years as a nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing.My last post was as a sister in St Georges Accident & Emergency Department.
+                Despite my respect & love for western medicine as life savings as it can be. I started to sense something was missing in the care we were offering patients. The influence of big pharmaceutical companies in health care simply no longer resonated with me. I had always been attracted to other modalities of healing and started to explore alternative and complimentary therapies initially within the nursing structure. I strongly believe that healing in the future will be a dual approach. Allopathic & alternative medicine working together. 
                 <br/>
                 <br/>
-                Despite my respect & love for western medicine as life savings as it can be. I started to sense something was missing in the care we were offering patients. The influence of big pharmaceutical companies in health care simply no longer resonated with me. I had always been attracted to other modalities of healing and started to explore alternative and complimentary therapies initially within the nursing structure.
-                <br/>
-                <br/>
-                A back injury from nursing pushed me towards my first regular yoga practice around 2008. Yoga not only gave me a solution to my back pain, it gave me the first experience of being able to control myracing, monkey, burnt out mind. Like many people my initial classes were in a gym.
-                <br/>
-                <br/>
-                I soon became hooked on yoga and gravitated towards a vinyasa Flow practice. I Resonated with a local teacher & regular class near my flat in Streatham. The philosophy and the guidance for life that came through with the practice just drove me to what to & learn more & more. I did my first 200hr teacher training in Vinyasa Flow with Claire Missingham in 2011. This training was a pivotal point in my life. A whole new world literally cracked open for me.
-                </span>
+                A back injury from nursing pushed me towards my first regular yoga practice around 2008. Yoga not only gave me a solution to my back pain, it gave me the first experience of being able to control my racing, monkey, burnt out mind. Like many people my initial classes were in a gym. I soon became hooked on yoga and gravitated towards a vinyasa flow practice. I Resonated with a local teacher & regular class near my flat in Streatham. The philosophy and the guidance for life that came through with the practice just drove me to what to & learn more & more. I did my first 200hr teacher training in Vinyasa Flow with Claire Missingham in 2012. This training was a pivotal point in my life. A whole new world literally cracked open for me.
+                 </span>
                 </p>
             </Col>
         </Row>

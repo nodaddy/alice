@@ -26,9 +26,9 @@ import connection from './homepage/my_values/Group23.svg'
 import Nature from './homepage/my_values/Group31.svg'
 import Sangha from './homepage/my_values/Group25.svg'
 import Movement from './homepage/my_values/Group90.svg'
-import Group63 from './classes/Group63.png'
-import Group65 from './classes/Group65.png'
-import Group67 from './classes/Group67.png'
+import Group63 from './classes/Group63.svg'
+import Group65 from './classes/Group65.svg'
+import Group67 from './classes/Group67.svg'
 import C1 from './classes/carousel/C1.png'
 import C2 from './classes/carousel/C2.png'
 import C3 from './classes/carousel/C3.png'
@@ -39,6 +39,7 @@ import RC1 from './retreat/carousel/RC1.png'
 import RC2 from './retreat/carousel/RC2.png'
 import RC3 from './retreat/carousel/RC3.png'
 import RC4 from './retreat/carousel/RC4.png'
+import contactHero from './contact/hero.png'
 
 export {
     hbImage1,
@@ -81,5 +82,6 @@ export {
     RC1,
     RC2,
     RC3,
-    RC4
+    RC4,
+    contactHero
 }
