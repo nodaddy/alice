@@ -23,10 +23,7 @@ export default function Classes() {
                 <img align="left" style={{width: '40%', marginRight: '40px', marginTop: '16px'}} src={image9Classes} alt="loading ..." />
                 <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px', display: 'inline-block'}}>About the classes</h1><br/>
                 <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
-                Yoga is a journey home. The practice awakens our souls so that we can feel connected and open to all that is.
-                <br/>
-                <br/>
-                It guides us to listen to our body and respond in a way that supports and nourishes, allowing us to heal and restore from deep within. It teaches us to witness the movements of our mind so that we can break free from negative habit patterns, renew our perspective and bring greater balance to our state of being.
+                Yoga guides us to listen to our body and respond in a way that supports and nourishes, allowing us to heal and restore from deep within. It teaches us to witness the movements of our mind so that we can break free from negative habit patterns, renew our perspective and bring greater balance to our state of being.
                 </span>
                 </p>
             </Col>
@@ -38,10 +35,7 @@ export default function Classes() {
                 <span style={{fontFamily: 'Raleway', fontSize: '15px'}}>
                 <img align="left" style={{width: '60%', margin: '5px 10px 7px 0px'}} src={image9Classes} alt="loading ..." />
                 Yoga is a journey home. The practice awakens our souls so that we can feel connected and open to all that is.
-                <br/>
-                <br/>
-                It guides us to listen to our body and respond in a way that supports and nourishes, allowing us to heal and restore from deep within. It teaches us to witness the movements of our mind so that we can break free from negative habit patterns, renew our perspective and bring greater balance to our state of being.
-                </span>
+                Yoga guides us to listen to our body and respond in a way that supports and nourishes, allowing us to heal and restore from deep within. It teaches us to witness the movements of our mind so that we can break free from negative habit patterns, renew our perspective and bring greater balance to our state of being.</span>
                 </p>
             </Col>
         </Row>
