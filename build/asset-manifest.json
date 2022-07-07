@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alice/static/css/main.795452a3.css",
-    "main.js": "/alice/static/js/main.7cc38d52.js",
+    "main.js": "/alice/static/js/main.87e98642.js",
     "static/js/787.fd438747.chunk.js": "/alice/static/js/787.fd438747.chunk.js",
     "static/media/RC4.png": "/alice/static/media/RC4.68ab4166c736376f6482.png",
     "static/media/RC1.png": "/alice/static/media/RC1.d394270ff460a6f465fe.png",
@@ -25,11 +25,14 @@
     "static/media/IMG-7020.png": "/alice/static/media/IMG-7020.e335a3b06551a8257ea7.png",
     "static/media/IMG-7018.png": "/alice/static/media/IMG-7018.c77330592b832d158579.png",
     "static/media/Mask17.png": "/alice/static/media/Mask17.bc8bfa954f2992feefd2.png",
+    "static/media/three.jpg": "/alice/static/media/three.a84d00fd88394ae79526.jpg",
     "static/media/logo.svg": "/alice/static/media/logo.7663b448b6d807f48b6b400093b29035.svg",
     "static/media/aboutRetreat.png": "/alice/static/media/aboutRetreat.508aab340d20f403f31e.png",
+    "static/media/two.jpg": "/alice/static/media/two.b5c190a58d89ed039f97.jpg",
     "static/media/image9.png": "/alice/static/media/image9.e75e545a2217cc9e712b.png",
     "static/media/hero.png": "/alice/static/media/hero.0d9afdac15c7a5e4e43c.png",
     "static/media/insta.png": "/alice/static/media/insta.45ed7acea51707125901.png",
+    "static/media/one.jpg": "/alice/static/media/one.aa29b677de0f8a1d749b.jpg",
     "static/media/Rectangle46.png": "/alice/static/media/Rectangle46.caf5d9cf8363790341be.png",
     "static/media/fb.png": "/alice/static/media/fb.401c707369d8a8e68622.png",
     "static/media/Image9Classes.png": "/alice/static/media/Image9Classes.d4732d95034b15f3776e.png",
@@ -48,11 +51,11 @@
     "index.html": "/alice/index.html",
     "static/media/Group65.svg": "/alice/static/media/Group65.bf57c0802766ca5dcb611c6376414bf9.svg",
     "main.795452a3.css.map": "/alice/static/css/main.795452a3.css.map",
-    "main.7cc38d52.js.map": "/alice/static/js/main.7cc38d52.js.map",
+    "main.87e98642.js.map": "/alice/static/js/main.87e98642.js.map",
     "787.fd438747.chunk.js.map": "/alice/static/js/787.fd438747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.795452a3.css",
-    "static/js/main.7cc38d52.js"
+    "static/js/main.87e98642.js"
   ]
 }
