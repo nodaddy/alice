@@ -17,7 +17,7 @@ export default function About () {
                 <img align="right" style={{width: '40%', marginLeft: '40px', marginTop: '16px'}} src={image9} alt="loading ..." />
                 <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px', display: 'inline-block'}}>About me</h1><br/>
                 <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
-                As a child I was fascinated by magic, mythical stories, fairies, astrology & the moon cycles.I have always had a very strong belief that there is so much more to life than what is right in front of our eyes<br/>
+                As a child I was fascinated by magic, mythical stories, fairies, astrology & the moon cycles.I have always had a very strong belief that there is so much more to life than what is right in front of our eyes.<br/>
                 <br/>
                 The healing path has always been part of my journey. My first career was nursing. I spent 15 years as a nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing. My last post was as a sister in St Georges Accident & Emergency Department.
                 <br/>
@@ -36,7 +36,7 @@ export default function About () {
                 <p>
                 <img align="right" style={{width: '60%', marginLeft: '10px', marginTop: '8px'}} src={image9} alt="loading ..." />
                 <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
-                As a child I was fascinated by magic, mythical stories, fairies, astrology & the moon cycles.I have always had a very strong belief that there is so much more to life than what is right in front of our eyes
+                As a child I was fascinated by magic, mythical stories, fairies, astrology & the moon cycles.I have always had a very strong belief that there is so much more to life than what is right in front of our eyes.
                 <br/>
                 <br/>
                 The healing path has always been part of my journey. My first career was nursing. I spent 15 years as a nurse working in various hospitals in the south of England and London. I volunteered and travelled with my nursing. My last post was as a sister in St Georges Accident & Emergency Department.
@@ -63,7 +63,7 @@ export default function About () {
                 <img align="left" style={{width: '40%', marginRight: '40px', marginTop: '16px'}} src={image11} alt="loading ..." />
                 <h1 style={{fontFamily: 'Playfair Display', fontSize: '40px', display: 'inline-block'}}>How it began</h1><br/>
                 <span style={{fontFamily: 'Raleway', fontSize: '16px'}}>
-                Early 2014 I travelled to India to do some nursing volunteer work & I was drawn to take a course at the Krishnamachcharya yoga mandarin. Krishnamacharya is widely considered as the father or architect of vinyasa, viniyoga. I was keen to learn as close to the source as possible.My experience of being taught in India at the KYM was so profound & life changing. I got the call to return to India to work and live. In October 2014 I returned to India to work at a hospital in Guwahati, Assam. I met my husband Raj 3 weeks into my stay in Assam. The mythical stories and culture in India felt very familiar and like home.
+                Early 2014 I travelled to India to do some nursing volunteer work & I was drawn to take a course at the Krishnamachcharya yoga mandarin. Krishnamacharya is widely considered as the father or architect of vinyasa, viniyoga. I was keen to learn as close to the source as possible. My experience of being taught in India at the KYM was so profound & life changing. I got the call to return to India to work and live. In October 2014 I returned to India to work at a hospital in Guwahati, Assam. I met my husband Raj 3 weeks into my stay in Assam. The mythical stories and culture in India felt very familiar and like home.
                 <br/>
                 <br/>
                 My practice continued to deepen & I got drawn to the mythical embodied teachings of Sianna Sherman. Sianna ignited my childhood interest in nature, magic & astrology. I then went onto take the urban priestess course, with her which is a sacred vessel to honour both nature cycles and the feminine power that is innate in nature and all around us.
@@ -83,7 +83,7 @@ export default function About () {
 
                 Early 2014 I travelled to India to do some nursing volunteer work & I was drawn to take a course at the Krishnamachcharya yoga mandarin. 
                                 
-                Krishnamacharya is widely considered as the father or architect of vinyasa, viniyoga. I was keen to learn as close to the source as possible.My experience of being taught in India at the KYM was so profound & life changing. I got the call to return to India to work and live. In October 2014 I returned to India to work at a hospital in Guwahati, Assam. I met my husband Raj 3 weeks into my stay in Assam. The mythical stories and culture in India felt very familiar and like home.
+                Krishnamacharya is widely considered as the father or architect of vinyasa, viniyoga. I was keen to learn as close to the source as possible. My experience of being taught in India at the KYM was so profound & life changing. I got the call to return to India to work and live. In October 2014 I returned to India to work at a hospital in Guwahati, Assam. I met my husband Raj 3 weeks into my stay in Assam. The mythical stories and culture in India felt very familiar and like home.
                 <br/>
                 
                 My practice continued to deepen & I got drawn to the mythical embodied teachings of Sianna Sherman. Sianna ignited my childhood interest in nature, magic & astrology. I then went onto take the urban priestess course, with her which is a sacred vessel to honour both nature cycles and the feminine power that is innate in nature and all around us.
@@ -109,17 +109,17 @@ export default function About () {
                    
                     <li>Reiki 1 & 2</li>
                     
-                    <li>200hrs YOGA ALLIANCE hrs. Claire Missingham 2012.</li>
+                    <li>200hrs YOGA ALLIANCE hrs. Claire Missingham 2012</li>
                     
-                    <li>1-month study Krishnamacharya Yoga Mandarin Chennai 2015, 2017.</li>
+                    <li>1-month study Krishnamacharya Yoga Mandarin Chennai 2015, 2017</li>
                     
                     <li>Certified IIN Health Coach 2015</li>
 
                     <li>Urban Priestess School 2016/17</li>
 
-                    <li>Thai massage level one, The old medicine school, Chang Mai 2018.</li>
+                    <li>Thai massage level one, The old medicine school, Chang Mai 2018</li>
 
-                    <li>300hrs YOGA ALLIANCE hrs Rasa Yoga teaching training 2019.</li>
+                    <li>300hrs YOGA ALLIANCE hrs Rasa Yoga teaching training 2019</li>
                 </ul>
             </Col>
 
@@ -137,17 +137,17 @@ export default function About () {
                    
                     <li>Reiki 1 & 2</li>
                     
-                    <li>200hrs YOGA ALLIANCE hrs. Claire Missingham 2012.</li>
+                    <li>200hrs YOGA ALLIANCE hrs. Claire Missingham 2012</li>
                     
-                    <li>1-month study Krishnamacharya Yoga Mandarin Chennai 2015, 2017.</li>
+                    <li>1-month study Krishnamacharya Yoga Mandarin Chennai 2015, 2017</li>
                     
                     <li>Certified IIN Health Coach 2015</li>
 
                     <li>Urban Priestess School 2016/17</li>
 
-                    <li>Thai massage level one, The old medicine school, Chang Mai 2018.</li>
+                    <li>Thai massage level one, The old medicine school, Chang Mai 2018</li>
 
-                    <li>300hrs YOGA ALLIANCE hrs Rasa Yoga teaching training 2019.</li>
+                    <li>300hrs YOGA ALLIANCE hrs Rasa Yoga teaching training 2019</li>
                 </ul>
           </Col>
       </Row>

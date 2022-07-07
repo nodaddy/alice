@@ -28,7 +28,7 @@ export default function Classes() {
                 <br/>
                 <br/>
                 <br/>
-                Asanas are the many physical poses in Hatha yoga. People who practice yoga use asanas to free energy and stimulate an imbalanced chakra
+                Asanas are the many physical poses in Hatha yoga. People who practice yoga use asanas to free energy and stimulate an imbalanced chakra.
                 
                 </span>
                 </p>
@@ -44,7 +44,7 @@ export default function Classes() {
                 
                 <br/>
                 <br/>
-                Asanas are the many physical poses in Hatha yoga. People who practice yoga use asanas to free energy and stimulate an imbalanced chakra
+                Asanas are the many physical poses in Hatha yoga. People who practice yoga use asanas to free energy and stimulate an imbalanced chakra.
                 </span>
                 </p>
             </Col>
@@ -102,7 +102,7 @@ export default function Classes() {
             <br/>
             <br/>
             <h1> <b>Individual Classes</b> </h1>
-            Group classes & sangha are powerful healing modalities.What works for you is not necessarily going to work for the next person. Sometimes going a little deeper is required. When you are new to yoga, these sessions are a great gateway to group classes and getting your alignment right from the beginning. The sessions are designed especially for you. We have time to look at your personal astrological influences & transits. These sessions are a loving space for you to reconnect to your breath & body as a sacred ritual bringing more awareness, intuition, trust and coherence to your life.
+            Group classes & sangha are powerful healing modalities. What works for you is not necessarily going to work for the next person. Sometimes going a little deeper is required. When you are new to yoga, these sessions are a great gateway to group classes and getting your alignment right from the beginning. The sessions are designed especially for you. We have time to look at your personal astrological influences & transits. These sessions are a loving space for you to reconnect to your breath & body as a sacred ritual bringing more awareness, intuition, trust and coherence to your life.
           </div>
         </Col>
         <Col xs={{span: 0}} md={{span: 8}} align="right">
@@ -111,7 +111,7 @@ export default function Classes() {
             <br/>
             <br/>
             <h1> <b>Online Classes</b> </h1>
-            Regular online group yoga classes are excellent for the people who are willing to keep up their physical wellbeing and mental health. Sometimes life gets busy and rushing to get to class on time can be get stressful.Getting to a physical class isn’t always possible. Practicing online we still can plug into the magic of centring breathing and moving in community.Location is not a constraint. You get to practice wherever you are in the world and from the comfort of your own home.
+            Regular online group yoga classes are excellent for the people who are willing to keep up their physical wellbeing and mental health. Sometimes life gets busy and rushing to get to class on time can be get stressful.Getting to a physical class isn’t always possible. Practicing online we still can plug into the magic of centring breathing and moving in community. Location is not a constraint. You get to practice wherever you are in the world and from the comfort of your own home.
           </div>
         </Col>
 
@@ -134,7 +134,7 @@ export default function Classes() {
             <br/>
             <br/>
             <h1> <b>Individual Classes</b> </h1>
-            Group classes & sangha are powerful healing modalities.What works for you is not necessarily going to work for the next person. Sometimes going a little deeper is required. When you are new to yoga, these sessions are a great gateway to group classes and getting your alignment right from the beginning. The sessions are designed especially for you. We have time to look at your personal astrological influences & transits. These sessions are a loving space for you to reconnect to your breath & body as a sacred ritual bringing more awareness, intuition, trust and coherence to your life.
+            Group classes & sangha are powerful healing modalities. What works for you is not necessarily going to work for the next person. Sometimes going a little deeper is required. When you are new to yoga, these sessions are a great gateway to group classes and getting your alignment right from the beginning. The sessions are designed especially for you. We have time to look at your personal astrological influences & transits. These sessions are a loving space for you to reconnect to your breath & body as a sacred ritual bringing more awareness, intuition, trust and coherence to your life.
           </div>
         </Col>
         <Col xs={{span: 24}} md={{span: 0}} align="center" style={{paddingBottom: '20px'}}>
@@ -143,7 +143,7 @@ export default function Classes() {
             <br/>
             <br/>
             <h1> <b>Online Classes</b> </h1>
-            Regular online group yoga classes are excellent for the people who are willing to keep up their physical wellbeing and mental health. Sometimes life gets busy and rushing to get to class on time can be get stressful.Getting to a physical class isn’t always possible. Practicing online we still can plug into the magic of centring breathing and moving in community.Location is not a constraint. You get to practice wherever you are in the world and from the comfort of your own home.
+            Regular online group yoga classes are excellent for the people who are willing to keep up their physical wellbeing and mental health. Sometimes life gets busy and rushing to get to class on time can be get stressful.Getting to a physical class isn’t always possible. Practicing online we still can plug into the magic of centring breathing and moving in community. Location is not a constraint. You get to practice wherever you are in the world and from the comfort of your own home.
           </div>
         </Col>
         <Col span={24} align="center">

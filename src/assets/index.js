@@ -39,6 +39,9 @@ import RC1 from './retreat/carousel/RC1.png'
 import RC2 from './retreat/carousel/RC2.png'
 import RC3 from './retreat/carousel/RC3.png'
 import RC4 from './retreat/carousel/RC4.png'
+import one from './retreat/carousel2/one.jpg'
+import two from './retreat/carousel2/two.jpg'
+import three from './retreat/carousel2/three.jpg'
 import contactHero from './contact/hero.png'
 import fb from './contact/fb.png';
 import insta from './contact/insta.png';
@@ -87,5 +90,8 @@ export {
     RC4,
     contactHero,
     fb,
-    insta
+    insta,
+    one,
+    two,
+    three
 }
