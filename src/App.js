@@ -3,7 +3,7 @@ import 'antd/dist/antd.css';
 import Home from './pages/home';
 import { Row, Col, Button, Modal } from 'antd'; 
 import { useState } from 'react';
-import { HashRouter as Router, NavLink, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Classes from './pages/classes';
@@ -38,14 +38,13 @@ function App() {
 
       <Row style={{backgroundColor: '#E5F7FA', margin: '0px -110px', padding: '50px 110px', fontFamily: 'raleway', fontSize: '16px'}} className="onlyDesktop">
         <Col span={12} align="left">alicebanting.com</Col>
-        <Col span={12} align="right">Instagram | Facebook</Col>
+        <Col span={12} align="right"><a style={{color: 'black', textDecoration: 'none'}} href="https://www.instagram.com/alicebanting/">Instagram</a></Col>
       </Row>
       {/* xs */}
       <Row style={{backgroundColor: '#E5F7FA', margin: '0px -30px', padding: '0px 20px', fontFamily: 'raleway', fontSize: '15px'}}>
         <Col style={{padding: '50px 0px'}} xs={{span: 12}} md={{span: 0}} align="left"> alicebanting.com </Col>
-        <Col style={{padding: '50px 0px'}} xs={{span: 12}} md={{span: 0}} align="right">Instagram | Facebook</Col>
+        <Col style={{padding: '50px 0px'}} xs={{span: 12}} md={{span: 0}} align="right"><a style={{color: 'black', textDecoration: 'none'}} href="https://www.instagram.com/alicebanting/">Instagram</a></Col>
       </Row>
-
       <Modal
         width="100vw" 
         style={{zIndex: 9999}}

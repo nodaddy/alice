@@ -52,16 +52,13 @@ export default function Contact
       
     <Row style={{margin: '60px 0px'}}>
         <Col span={24}>
-            <h1 align="left" style={{fontFamily: 'Playfair Display', fontSize: '40px', width: '85%'}} className="onlyDesktop">Connect with me on social media</h1>
-            <h1 align="left" style={{fontFamily: 'Playfair Display', fontSize: '30px', width: '85%', display: 'none'}} className="onlyMobile">Connect with me on social media</h1>
+            <h1 align="center" style={{fontFamily: 'Playfair Display', fontSize: '40px', width: '100%'}} className="onlyDesktop">Connect with me on social media</h1>
+            <h1 align="center" style={{fontFamily: 'Playfair Display', fontSize: '30px', width: '100%', display: 'none'}} className="onlyMobile">Connect with me on social media</h1>
         </Col>
         <br/>
-        <br/>
-        <Col span={12}>
-            <img align="left" style={{width: '90%', borderRadius: '10px'}} src={fb} alt="loading ..." />
-        </Col>
-        <Col span={12}>
-            <img align="right" style={{width: '90%', borderRadius: '10px'}} src={insta} alt="loading ..." />
+        <br/> 
+        <Col span={24} align="center">
+            <a href="https://www.instagram.com/alicebanting/"><img style={{width: '50%', borderRadius: '10px'}} src={insta} alt="loading ..." /></a>
         </Col>
     </Row>
     </div>
